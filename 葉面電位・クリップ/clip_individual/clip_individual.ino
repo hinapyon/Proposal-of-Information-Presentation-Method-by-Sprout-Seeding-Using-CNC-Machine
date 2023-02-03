@@ -15,7 +15,6 @@ void loop() {
   analog_voltage2 = analogRead(A2);
   degital_voltage2 = (analog_voltage2 * 5.0) / 1024.0;
 
-
   Serial.print("ACD1=");
   Serial.print(analog_voltage1);
   Serial.println("");
@@ -25,7 +24,7 @@ void loop() {
   Serial.print("ACD=");
   Serial.print(analog_voltage1 - analog_voltage2);
   Serial.println("");
-  
+
   Serial.print("V=");
   Serial.print(degital_voltage1 - degital_voltage2);
   Serial.println("");
