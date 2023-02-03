@@ -1,5 +1,0 @@
-{
-    "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbserial-14230",
-    "sketch": "ServoForPyserial/ServoForPyserial.ino"
-}
